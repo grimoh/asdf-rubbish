@@ -1,11 +1,11 @@
-# asdf-waste
+# asdf-rubbish
 
-[waste](https://github.com/grimoh/waste) plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
+[grimoh/rubbish](https://github.com/grimoh/rubbish) plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 
 ## Install
 
 Install the plugin:
 
 ```sh
-$ asdf plugin add waste https://github.com/grimoh/asdf-waste.git
+$ asdf plugin add rubbish https://github.com/grimoh/asdf-rubbish.git
 ```

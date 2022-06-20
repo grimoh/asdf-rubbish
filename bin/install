@@ -6,9 +6,9 @@ set -e
 [ -n "$ASDF_DOWNLOAD_PATH" ] || (echo 'Missing ASDF_DOWNLOAD_PATH' >&2 && exit 1)
 
 mkdir -p "${ASDF_INSTALL_PATH}/bin"
-toolPath="${ASDF_INSTALL_PATH}/bin/waste"
+toolPath="${ASDF_INSTALL_PATH}/bin/rubbish"
 
 cd "${ASDF_DOWNLOAD_PATH}"
-tar xzf waste.tar.gz
-mv ./waste "${toolPath}"
+tar xzf rubbish.tar.gz
+mv ./rubbish "${toolPath}"
 chmod +x "${toolPath}"

@@ -7,11 +7,11 @@ set -e
 
 case "$(uname -s)" in
 	"Darwin")
-		DOWNLOAD_URL="https://github.com/grimoh/waste/releases/download/v${ASDF_INSTALL_VERSION}/waste-darwin-amd64.tar.gz"
+		DOWNLOAD_URL="https://github.com/grimoh/rubbish/releases/download/v${ASDF_INSTALL_VERSION}/rubbish-darwin-amd64.tar.gz"
 		;;
 	"Linux")
-		DOWNLOAD_URL="https://github.com/grimoh/waste/releases/download/v${ASDF_INSTALL_VERSION}/waste-linux-amd64.tar.gz"
+		DOWNLOAD_URL="https://github.com/grimoh/rubbish/releases/download/v${ASDF_INSTALL_VERSION}/rubbish-linux-amd64.tar.gz"
 		;;
 esac
 
-curl -fL -o "${ASDF_DOWNLOAD_PATH}/waste.tar.gz" "${DOWNLOAD_URL}"
+curl -fL -o "${ASDF_DOWNLOAD_PATH}/rubbish.tar.gz" "${DOWNLOAD_URL}"

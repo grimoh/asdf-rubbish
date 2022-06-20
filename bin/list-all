@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-release_path="https://api.github.com/repos/grimoh/waste/releases"
+release_path="https://api.github.com/repos/grimoh/rubbish/releases"
 cmd="curl -s"
 if [  -n "$GITHUB_API_TOKEN" ]; then
   cmd="$cmd -H 'Authorization: token $GITHUB_API_TOKEN'"
